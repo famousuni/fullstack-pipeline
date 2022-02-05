@@ -1,7 +1,9 @@
 # Udagram Pipeline
 
 This project is a full stack application with pipeline integration AWS via CircleCI
-[![CircleCI](https://circleci.com/gh/famousuni/fullstack-pipeline/tree/main.svg?style=svg)](https://circleci.com/gh/famousuni/fullstack-pipeline/tree/main)
+- Pipeline Status: [![CircleCI](https://circleci.com/gh/famousuni/fullstack-pipeline/tree/main.svg?style=svg)](https://circleci.com/gh/famousuni/fullstack-pipeline/tree/main)
+
+- [Bucket Link](http://c-udagram.s3-website-us-east-1.amazonaws.com/)
 
 ## Getting Started
 
@@ -65,6 +67,8 @@ AWS_BUCKET=
 JWT_SECRET=
 NODE_OPTIONS=--openssl-legacy-provider
 URL=
+
+CircleCI will invoke the various npm install npm build and npm deploy scripts from the root directories package.json
 
 ## Built With
 
